@@ -1,7 +1,7 @@
 from phue import Bridge
 from time import sleep
-
-b = Bridge('192.168.0.183')
+ip = ''
+b = Bridge(ip)
 b.connect()
 # Get the bridge state (This returns the full dictionary that you can explore)
 b.get_api()
