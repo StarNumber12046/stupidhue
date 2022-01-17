@@ -8,7 +8,7 @@ b.get_api()
 
 b.get_light(1, 'on')
 # Prints if light 1 is on or not
-b.get_light('light')
+b.get_light('light') #light's name
 lights = b.lights
 # Print light names
 for l in lights:
